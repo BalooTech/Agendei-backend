@@ -1,6 +1,7 @@
 package com.backendapp.backendApp.entity.Aluno;
 
 
+import com.backendapp.backendApp.entity.Aula.AulaEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -26,6 +27,9 @@ public class AlunosEntity {
 
     @Column(name = "client_phone", length = 10)
     private String phone;
+
+
+    private AulaEntity aula;
 
 
 }
